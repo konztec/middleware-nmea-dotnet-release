@@ -2,18 +2,29 @@
 
 Middleware de integração de NMEA para SIOT padrão MQTT.
 
-[Codecs NMEA](https://gpsd.gitlab.io/gpsd/NMEA.html) disponíveis até a versão atual `v1.0.0`:
+[Codecs NMEA](https://gpsd.gitlab.io/gpsd/NMEA.html) disponíveis até a versão atual `v1.1.0`:
    - `GGA`
    - `HDT`
    - `VTG`
-
+   - `DBK`
+   - `DBS`
+   - `DBT`
+   - `DPT`
+   - `GLL`
+   - `GSA`
+   - `MTW`
+   - `MWD`
+   - `RMC`
+   - `RPM`
+   - `VHW`
+   - `ZDA`
 
 ### Instalação execução
 
 Necessário instalar [.NET 5](https://dotnet.microsoft.com/download/dotnet/5.0)
 
 
-Realizar o download da última versão do [Middleware.NMEA](https://github.com/konztec/middleware-nmea-dotnet-release/releases/download/1.0.0/Middleware.NMEA.1.0.0.zip)
+Realizar o download da última versão do [Middleware.NMEA](https://github.com/konztec/middleware-nmea-dotnet-release/releases/download/v1.1.0/Middleware.NMEA.1.1.0.zip)
 
 Extrair os arquivos compactados em um diretório.
 
