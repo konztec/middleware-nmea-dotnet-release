@@ -34,6 +34,30 @@ $ cp config.example.json config.json
 ```
 
 Configurar as váriaveis do ambiente no `appsettings.json`
+```
+{
+  "NMEA": { // configurações de conexão com o NMEA
+    "Mode": "SERIAL", // modo de conexão (utilizar SERIAL ou TCP)
+    "Serial": { // configurações para o modo SERIAL, informar apenas se o `Mode: SERIAL`
+      "Port": "COM2", // Serial Port
+      "Baudrate": 9600 // Baudrate
+    },
+    "TCP": { // configurações para o modo TCP, informar apenas se o `Mode: TCP`
+      "Endpoint": "localhost", // Endpoint TCP
+      "Port": 3000 // Porta TCP
+    }
+  },
+  "MQTT": { // configurações da conexão MQTT para envio dos sinais para o broker do SIoT
+    "Endpoint": "siot-broker-mqtt-dev.konztec.com.br", // endpoint do MQTT
+    "Port": 8883, // porta MQTT
+    "TLS": true // utiliza SSL/TLS (true ou false)
+  },
+  "BUFFER": { // configurações do buffer de sinais
+    "CronSend": "0/30 * * * * ?", // intervalo de tempo no formato CRON para verificar o buffer e enviar os sinais
+    "TotalFiles": 10000 // limite de arquivos a serem enviados no intervalo
+  }
+}
+```
 
 <br/>
 <br/>
