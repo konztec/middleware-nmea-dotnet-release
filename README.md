@@ -2,7 +2,7 @@
 
 Middleware de integração de NMEA para SIOT padrão MQTT.
 
-[Codecs NMEA](https://gpsd.gitlab.io/gpsd/NMEA.html) disponíveis até a versão atual `v1.3.0` e suas propriedades:
+[Codecs NMEA](https://gpsd.gitlab.io/gpsd/NMEA.html) disponíveis até a versão atual `v1.3.0` e suas propriedades/tipo de variável:
    - `GGA` ***Global Positioning System Fix Data***
       - FixTime *TimeSpan*
       - Latitude *Float*
