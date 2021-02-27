@@ -78,9 +78,7 @@ Middleware de integração de NMEA para SIOT padrão MQTT.
    - `MWV` ***Wind Speed and Angle***
       - WindAngle *Float*
       - Speed *Float*
-      - Reference *Int*
-        - Relative = 0
-        - True = 1
+      - Reference *String* *(R = Relative, T = True)*
       - Units *String* *(K = km/hr, M = m/s, N = knots, S = statute)*
       - Status *Int*
         - Valid = 0
