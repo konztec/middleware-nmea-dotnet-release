@@ -120,7 +120,7 @@ Middleware de integração de NMEA para SIOT padrão MQTT.
 Necessário instalar [.NET 5](https://dotnet.microsoft.com/download/dotnet/5.0)
 
 
-Realizar o download da última versão do [Middleware.NMEA](https://github.com/konztec/middleware-nmea-dotnet-release/releases/download/v1.3.0/Middleware.NMEA.1.3.0.zip)
+Realizar o download da última versão do [Middleware.NMEA](https://github.com/konztec/middleware-nmea-dotnet-release/releases/download/1.3.0/Middleware.NMEA.1.3.0.zip)
 
 Extrair os arquivos compactados em um diretório.
 
